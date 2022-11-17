@@ -1,11 +1,16 @@
 
 body{
-      /*width: 1600px;*/
-      height: 4975px;
+      width: 1600px;
+      /*height: 4975px;*/
       background: #FFFFFF;
+      position:relative;
+      align-items: center;
+}
+main{
+   margin: 0 auto;
 }
 header{
-      /*width: 1600px;*/
+      width: 100%;
       display:flex;
       flex-direction: row;
       height: 80px;
@@ -18,13 +23,24 @@ nav{
    /*padding: 0 29px;*/
    
 }
+
+
 .section1_ft{
-   display: flex;
-   flex-direction: column;
-   background: url(../../assets/images/Giant\ Panda.png);
-   backdrop-filter: blur(2px);
-   height: 780;
-   width: 1600;
+   /*position: absolute;*/
+   /*flex-direction: column;*/
+   height: 780px;
+   /*width: auto;*/
+   background-image: url("../../assets/images/Giant\ Panda.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   /*backdrop-filter: blur(2px);*/
+  
+  /* width: 1600;*/
+  /* background-size: cover;*/
+   
+   overflow: auto;
+   
+   
 }
 .section2{
    min-height: 403;
@@ -58,7 +74,7 @@ nav{
    margin-bottom: 14px;
 
 }
-.btn_1{
+.watch_online-btn_1{
    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
    border-radius: 25px;
    position:absolute;
@@ -82,6 +98,31 @@ text-transform: uppercase;
 
 color: #FFFFFF;
 }
+
+.watch_online-text{
+   position: absolute;
+width: 500.31px;
+height: 400px;
+left: calc(50% - 500.31px/2 + 330.15px);
+top: 166px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 106.496px;
+line-height: 75%;
+/* or 80px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+align-items: center;
+}
+.watch_online-text span{
+   color: #FFEE2E;
+}
+
 .main_menu{
    display: flex;
    flex-direction: row;
@@ -199,4 +240,15 @@ content: url("../../assets/images/bamboo.png");
 /*transform: matrix(-0.9, 0.52, 0.4, 0.88, 0, 0);*/
 /*transform: matrix(1, 0, 0, 1, 0, 0);*/
 /*box-shadow: 1px 1px 5px #000;*/
+}
+.circle {
+   position: absolute;
+width: 465px;
+height: 465px;
+left: calc(50% - 465px/2 + 239.5px);
+top: 92px;
+border-radius: 50%;
+/* orange */
+
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
 }
