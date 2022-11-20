@@ -75,19 +75,14 @@ nav{
    margin-top: 546px;
    
     border-radius: 50%;
-    /*background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);*/
+   
     background: url("../../assets/icons/arrow_elips_2.png");
-    /*top: 578px;*/
+  
     transition: 600ms;
 
+} 
+/*.section3_left_arrow::after{
 
-/* orange */
-
-
-}
-.section3_left_arrow::after{
-  /* display: block;
-   position: absolute;*/
    width: 62px;
     height: 62px;
    margin-left: 138px;
@@ -100,7 +95,7 @@ nav{
    background-repeat:  no-repeat;
    background-position:center;
   
-}
+}*/
 .section3_right_arrow{
    width: 62px;
     height: 62px;
@@ -113,15 +108,9 @@ nav{
     background: url("../../assets/icons/arrow_elips_1.png");
     /*top: 578px;*/
     transition: 600ms;
-
-
-/* orange */
-
-
 }
-.section3_right_arrow::after{
-  /* display: block;
-   position: absolute;*/
+/*.section3_right_arrow::after{
+  
    width: 62px;
     height: 62px;
    margin-left: 19px;
@@ -134,7 +123,7 @@ nav{
    background-repeat:  no-repeat;
    background-position:center;
   
-}
+}*/
 
 .bg_section4_pick-and-feed{
 
@@ -159,14 +148,19 @@ nav{
    margin-bottom: 14px;
 
 }
-.watch_online-btn_1{
+#watch_online{
+   left: calc(50% - 298px/2 + 332px);
+   top: 626px; 
+}
+.round_btn{
    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
    border-radius: 25px;
    position:absolute;
    width: 298px;
    height: 54px;
-   left: calc(50% - 298px/2 + 332px);
-   top: 626px; 
+   color: #FFFFFF;
+   border: none;
+   
    
 
 /* btn. */
@@ -523,9 +517,14 @@ background: url("../../assets/images/Rectangle\ 5-7.png");
 }
 .animal_card{
    display: flex;
-   flex-direction: column;
-  
+   flex-direction: column;  
    border-radius: 5px;
    border: 1px solid #FE9013;
    margin-bottom: 0px;
+}
+#choose_favorite{
+   position: absolute;
+   left: calc(50% - 298px/2);
+   top: 2455px;
+  
 }
