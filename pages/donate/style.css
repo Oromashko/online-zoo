@@ -259,11 +259,7 @@ h2{
    margin-left: 250px;
 }
 .pick_and_feed-subtitle{
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 24px;
-   line-height: 120%;
+   
    color: #333B41;
 
    width: 1095px;
@@ -271,6 +267,13 @@ h2{
    left: 0px;
    margin-top: 20px;
    margin-left: 92px;
+}
+.subtitle{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 120%;
 }
 .panda_pics-wrapper{
    
@@ -348,8 +351,8 @@ margin-left: 354px;
 }
 #feed_friend-btn{
    position: absolute;
-width: 298px;
-height: 54px;
+   width: 298px;
+   height: 54px;
    margin-top: 649px;
    margin-left: 342px;
 }
@@ -378,7 +381,95 @@ color: #FFFFFF;
 }
 
 footer{
-min-height: 443px;
+   min-height: 443px;
    min-width: 1600px;
    background-color: #111115;
+}
+.square-btn{
+   width: 298px;
+   height: 54px;
+
+   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+   border-radius: 5px;
+   border: none;
+   text-align: center;
+   text-transform: uppercase;  
+}
+#donate_volanter{
+   position: absolute;
+   margin-left: 220px;
+   margin-top: 161px;
+
+}
+#pet_story-logo{
+   position: absolute;
+   margin-left: 220px;
+   margin-top: 41px;
+}
+#email-label{
+
+   position: absolute;
+   width: 237px;
+   height: 29px;
+
+   margin-left: 1013px;
+   margin-top: 40px;
+
+   color: #FFFFFF;
+}
+#email-input{
+  /* box-sizing: border-box;*/
+
+  /* position: absolute;*/
+   
+   width: 228px;
+   height: 42px;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 140%;
+/* or 22px */
+
+
+/* Gray 4 */
+
+color:#FE9013;
+background-color: #111115;
+border-color: #FE9013;
+border-radius: 2px;
+border: 0.7px solid;
+}
+#rect_email{
+
+   margin-top: 83px;
+   margin-left: 1013px;
+}
+#submit-btn{
+   /*position: absolute;*/
+   width: 129px;
+   height: 42px;
+   margin-left: 10px;;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 140%;
+/* or 22px */
+   color: #000000;
+   background: #F1F3F2;
+   /* black_blue */
+   
+   border: 1px solid #333B41;
+   border-radius: 5px;
+}
+#email-form{
+   display: flex;
+   flex-direction: row;
+   width: 367px;
+   height: 42px;
+   margin-left:1013px;
+   margin-top: 83px;
 }

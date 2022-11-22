@@ -60,7 +60,7 @@
             <div class="pick_and_feed_friend-wrapper">
                <div class="pick_and_feed_friend-content">
                   <h2 class="pick_and_feed-title">Pick and feed a friend</h2>
-                  <p class="pick_and_feed-subtitle">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+                  <p class="pick_and_feed-subtitle subtitle">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
                   <div class="panda_pics-wrapper">
                      <img id="panda-pic" src="../../assets/images/panda_widget1.png" alt="Panda widget pic">
                      <img id="amount_days" src="../../assets/images/amount_of_days_donate.png" alt="Amount of days donate">
@@ -79,8 +79,15 @@
       </section>
       <footer>
          <a href="../main/index.html">       
-            <h1>PetStory online</h1>
+            <h1 id="pet_story-logo">PetStory online</h1>
          </a>
+         <button id="donate_volanter" class="square-btn btn">donate for volunteers</button>
+         <!--<img id="rect_email" src="../../assets/images/Rectangle 19.png" alt="Regtangle">-->
+         <h3 class="subtitle" id="email-label">Subscribe to our news</h3>
+         <form id="email-form" action="#" method="get">
+            <input type="email" id="email-input" pattern=".+@.+\.com" size="30" placeholder="Enter your email" required>
+            <input id="submit-btn" type="submit" form="email-form" value="Submit">
+         </form>
       </footer>
       </main>
        
