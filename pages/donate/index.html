@@ -67,9 +67,14 @@
                      <p id="panda_diet-text">Panda diet for the day.</p>
                      <img id="progress_bar" src="../../assets/images/progress_bar.png" alt="Progress bar">
                      <img id="price" src="../../assets/images/price.png" alt="price">
-                     <img id="another_amount" src="../../assets/images/another-amount.png" alt="another amount" >
-                     <img id="amount_monthly" src="../../assets/images/note.png" alt="note">
-                     <img id="amount_once" src="../../assets/images/note_once.png" alt="note">
+                     <input value="100" type="number" pattern="\d*" maxlenth="4" id="another_amount" placeholder="Another amount" onkeypress="return event.charCode>=48 && event.charCode<=57" >             
+                     <!--   <img id="another_amount" src="../../assets/images/another-amount.png" alt="another amount" >-->
+                     <input type="radio" id="rb-amount_monthly" name="donate-type" value="monthly" checked>
+                     <label id="amount_monthly" for="rb-amount_monthly">Monthly</label>
+                     <input type="radio" id="rb-amount_once" name="donate-type" value="once">
+                     <label id="amount_once" for="rb-amount_once">Once</label>
+                     <!--<img id="amount_monthly" src="../../assets/images/note.png" alt="note">
+                     <img id="amount_once" src="../../assets/images/note_once.png" alt="note">-->
                      <button id="feed_friend-btn" class="round_btn btn">Feed a friend now</button>
                   </div>
                </div>
@@ -121,15 +126,15 @@
             <ul id="footer_menu-item">
                
                   <li class="footer_menu-first_element">
-                     <a href="#about">About</a>
+                     <a href="../main/index.html">About</a>
                   </li>
               
                   <li class="footer_menu-elements">
-                     <a href="#map">Map</a>
+                     <a href="../main/index.html">Map</a>
                   </li>
               
                   <li class="footer_menu-elements">
-                     <a href="#zoos">Zoos</a>
+                     <a href="../main/index.html">Zoos</a>
                   </li>
               
                   <li class="footer_menu-elements">
@@ -137,11 +142,7 @@
                   </li>
             
                   <li class="footer_menu-elements">
-                     <a href="#contactus">Contact us</a>
-                  </li>
-              
-                  <li class="footer_menu-designlink">
-                     <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by &copy;</a>
+                     <a href="../main/index.html">Contact us</a>
                   </li>
        
             </ul>
@@ -155,6 +156,9 @@
                <input type="email" id="email-input" pattern=".+@.+\.com" size="30" placeholder="Enter your email" required>
                <input id="submit-btn" type="submit" form="email-form" value="Submit">
             </form>
+
+            <a class="footer_menu-designlink" href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">Designed by &copy;</a>
+            
          </div>   
       
       </footer>
