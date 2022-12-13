@@ -140,43 +140,12 @@ nav{
    min-width: 1600px;
    background-color: #111115;
 }
-.logo_footer{
-   width: 82px;
-   height: 52px;
-   margin-left: 220px;
-   margin-top: 14px;
-   margin-bottom: 14px;
 
-}
 #watch_online{
    left: calc(50% - 298px/2 + 332px);
    top: 626px; 
 }
-.round_btn{
-   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-   border-radius: 25px;
-   position:absolute;
-   width: 298px;
-   height: 54px;
-   color: #FFFFFF;
-   border: none;
-   
-   
 
-/* btn. */
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 140%;
-/* or 22px */
-
-text-align: center;
-text-transform: uppercase;
-
-color: #FFFFFF;
-}
 
 .watch_online-text{
    position: absolute;
@@ -202,71 +171,12 @@ align-items: center;
    color: #FFEE2E;
 }
 
-.main_menu{
-   display: flex;
-   flex-direction: row;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   /*padding: 0 29px;*/
-   height: 80px;
-   list-style-type: none;
-   /*width: auto;*/
-   align-items: center;
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   /*line-height: 140%;*/
-   color: white;
-   width: 100%;
-   
-}
+
 .logo_footer-elements{
 
    display:flex;
 }
-.main_menu-elements{
-   
-   margin-left: 29px;
-};
-.main_menu-first_element{
-  
-   margin-left: 63px;
-  
-};
-.main_menu-first_element a{
-    align-items: center;
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 140%;
-   color: white;
-   width: 100%;
-}
-.main_menu-designlink{
-   margin: 29px 220px 29px 438px;
-}
-.main_menu-designlink a{
-   align-items: center;
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 140%;
-   color: white;
-   width: 100%;
-}
-.main_menu-elements a{
-   align-items: center;
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 140%;
-   color: white;
-   width: 100%;
-}
+
 
 @font-face {
    font-family: 'Roboto'; 
