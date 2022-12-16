@@ -26,14 +26,15 @@
    <link rel="stylesheet" media="screen and (min-width: 1600px)" href="../../assets/styles/common_desktop.css">
    <link rel="stylesheet" media="screen and (min-width: 1600px)" href="../../assets/styles/footer_desktop.css">
    <link rel="stylesheet" media="screen and (min-width: 1600px)" href="../../assets/styles/menu_desktop.css">
-
 </head>
 <body>
    <header> 
       <div id="logo-wrapper">
-         <a href="./index.html">       
-         <h1>PetStory online</h1>
-         </a>
+         <div id="logo">
+            <a href="./index.html">       
+               <h1 id="pet_story-logo-header">PetStory online</h1>
+            </a>
+         </div>
       </div>
       
        <nav class="main-menu">
@@ -201,23 +202,23 @@
        </div> 
        <div class="section3_right_arrow">
       </div> 
-      </section>
       <button id="choose_favorite" class="round_btn btn">choose your favorite</button>
-      <section class="bg_section4_pick-and-feed">
-         <div class=""> 
-
-         </div> 
-
       </section>
+      
 
-      <section class="bg_section4_pick-and-feed">
 
+      <section id="section4_pick-and-feed_wrapper">
+         <div id="section4_pick-and-feed">
+            <div id="section4-header">
+               <p>Pick and feed a friend</p>
+            </div>
+         </div>
       </section>
       
       <footer id="footer">
          <div id="footer_left-wrapper">
             <a href="../main/index.html">       
-               <h1 id="pet_story-logo">PetStory online</h1>
+               <h1 id="pet_story-logo-footer">PetStory online</h1>
             </a>
             <button id="donate_volanter" class="square-btn btn">donate for volunteers</button>
             <div id="social_network" >
@@ -257,8 +258,10 @@
          <nav id="footer_menu">
             <ul id="footer_menu-item">
                
-                  <li >
-                     <a class="footer_menu-first_element" href="../main/index.html">About</a>
+                  <li  class="hovered">
+                     <div class="footer_menu-first_element">
+                        <a  href="../main/index.html">About</a>
+                     </div>    
                   </li>
               
                   <li >
@@ -269,7 +272,7 @@
                      <a class="footer_menu-elements" href="../main/index.html">Zoos</a>
                   </li>
               
-                  <li >
+                  <li>
                      <a class="footer_menu-elements" href="../../pages/donate/index.html">Donate</a>
                   </li>
             
