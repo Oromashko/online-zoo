@@ -20,9 +20,9 @@ footer{
    
    
 }
-#pet_story-logo{
+#pet_story-logo-footer{
    position: absolute;
-   margin-left: 220px;
+   margin-left: 227.13px;
    margin-top: 41px;
 }
 #donate_volanter{
@@ -132,6 +132,8 @@ footer{
 .footer_menu-first_element {
    margin-left: 0px;
 }
+
+
 #footer_menu-designlink-wrapper{
    display: flex;
 
@@ -155,7 +157,9 @@ footer{
    width: 100%;
 
 }
-a[class="footer_menu-designlink"]{
+a[class="footer_menu-designlink"],
+a[class="footer_menu-first_element"],
+a[class="footer_menu-elements"] {
    align-items: center;
    font-family: 'Roboto';
    font-style: normal;
@@ -164,21 +168,13 @@ a[class="footer_menu-designlink"]{
    line-height: 140%;
    color: white;
    width: 100%;
+   text-decoration: none;
 }
-a[class="footer_menu-elements"]{
-   align-items: center;
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 140%;
-   color: white;
-   width: 100%;
-}
-footer h1{
-   margin-left: 224.75px;
-   margin-top: 41;
-}
+
+/*footer h1{
+   margin-left: 220px;
+   margin-top: 41px;
+}*/
 #email-label{
 
    position: absolute;
