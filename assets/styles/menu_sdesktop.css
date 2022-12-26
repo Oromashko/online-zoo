@@ -1,0 +1,182 @@
+#main_menu-item 
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  /* margin-top: 0px;*/
+   /*margin-bottom: 4px;*/
+   /*margin-left: 2%;*/
+ 
+   /*padding: 0 29px;*/  
+
+   height: 80px;
+   list-style-type: none;  
+   /*width: auto;*/
+   align-items: center;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 140%;
+   color: white;
+   width: 100%;
+   
+}
+#main_menu-designlink-wrapper{
+   display: flex;
+   flex: 1 0 47.6875%; 
+   margin-left: 27.375%;
+  
+   align-items: center;
+
+
+}
+
+a[class="main_menu-designlink"]{
+   align-items: flex-start;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 140%;
+   color: white;
+   width: 100%;
+   text-decoration: none;
+}
+
+a[class="main_menu-elements"]{
+   align-items: flex-start;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 140%;
+   color: white;
+   width: 100%;
+   text-decoration: none;
+}
+nav{
+   display: flex;
+   flex:  1 0 29.4375%;
+   margin-left: 3.9375%; 
+   align-items: center; 
+}
+#logo-wrapper{
+   display: flex;
+   flex: 1 0 18.875%; 
+  /* margin-left: 0.2%;*/
+/*   margin-bottom: 4px;*/
+  /* margin-top: 14px;*/
+   align-items: center;
+   /*padding-left: 220px;*/
+}
+#logo{
+   margin-left: 72.847682%;
+}
+ul{
+   padding-inline-start: 0;  
+}
+.hovered a, 
+.main_menu-elements:hover{
+   color: #F9804B;
+}
+/*#logo-wrapper{
+   flex: 1 1 auto; 
+   display: flex;
+  
+   align-items: center;
+   justify-content: center;
+}*/
+/*header{
+   display: flex;
+   flex-direction: row;
+
+}*/
+header{
+   width: 100%;
+   display:flex;
+   flex-direction: row;
+   height: 80px;
+   background: #000000;
+   backdrop-filter: blur(2px);
+}
+nav{
+display: flex;
+flex-direction: row;
+/*padding: 0 29px;*/
+
+}
+/*header h1{
+   margin-left: 220px;
+}*/
+h1{
+   
+   box-sizing: border-box;
+   /*width: 72.49px;
+   height: 44.91px;*/
+   width: 82px;
+   height: 52px;
+   /*left: 4.75px;
+   top: 3.55px;*/
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 19.0145px;
+   line-height: 120%;
+   align-items: center;
+/* or 23px */
+
+   text-align: center;
+
+
+   color: #FFFFFF;
+
+border: 1.18841px solid #FFFFFF; 
+/*   border: 1px solid #FFFFFF;*/
+   border-radius: 2px;
+   margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+h1::before{
+   /*box-sizing: border-box;*/
+
+position: absolute;
+display: inline-block;
+/*width: 7.03px;
+height: 20.98px;*/
+margin-left: 7.13px;
+margin-top: 24.64px;
+/*background-size: 7.03px 20.98px;*/
+
+content: url("../../assets/images/bamboo.png");
+
+
+/*transform: matrix(-0.9, 0.52, 0.4, 0.88, 0, 0);*/
+/*transform: matrix(1, 0, 0, 1, 0, 0);*/
+/*box-shadow: 1px 1px 5px #000;*/
+}
+
+#pet_story-logo-header{
+      
+   /*margin-left: 72.847682%;*/
+   /*align-items: center;*/
+   justify-content: center;
+}
+#pet_story-logo h1{
+
+box-sizing: border-box;
+
+/* or 23px */
+
+text-align: center;
+border: 1.18841px solid #FFFFFF;
+border-radius: 2px;
+padding-top: 3.55px ;
+padding-bottom: 3.55px;
+padding-right: 5.75px;
+padding-left: 5.75px;
+margin-block-start: 0px;
+margin-block-end: 0px;
+}
